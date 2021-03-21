@@ -3,7 +3,8 @@
 
 # Configuracion:
     Crear Variables de Entorno de Cuenta 
-        GRAILS_HOME
+    
+    GRAILS_HOME
         D:\INSTALADORES\JAVA\grails-3.3.11\bin
 
     JAVA_HOME
