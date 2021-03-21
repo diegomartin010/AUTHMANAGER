@@ -2,7 +2,7 @@ package workflows
 
 class ApplicationMenu {
     String nombre = ""
-    String url = ""
+    String url = "./"
     String ubicacionMenu = "" //SUP o INF
     String contexto = "" //area
     
