@@ -47,6 +47,21 @@ class QueryController {
         } 
     }
 
+    def getTemplates(){
+        def x = []
+        def u = Template.findAll{}
+        u.each{
+            x.push(it.properties())
+        }
+        render(status: 200, contentType: 'application/json') {
+           result x
+        }  
+    }
+
+    def getTemplate(){
+
+    }
+
 
 
 }

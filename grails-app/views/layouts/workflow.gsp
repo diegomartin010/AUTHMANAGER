@@ -43,7 +43,6 @@
           </div>
           <div class="card-body">
             <g:layoutBody/>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
     </div> 
